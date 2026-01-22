@@ -1,0 +1,79 @@
+/* Default for all pages */
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Logo */
+.branding {
+    background-color: white;
+    padding: 10px 20px;
+}
+.branding img{
+    height: 80px;
+}
+
+/* Navigation Bar */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #7a8f84;
+    color: white;
+    padding: 12px 24px;
+}
+
+.nav-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.subtitle {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.primary-links {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.primary-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+.primary-links a.active {
+    font-weight: bold;
+}
+
+.back-btn {
+    width: 80px;
+    font-size: 28px;
+    text-decoration: none;
+    color: white;
+}
+
+.dashboard {
+    width: 160px;
+    text-align: center;
+    border-left: 2px solid white;    
+    padding-top: 15px;   
+    padding-left: 20px;
+
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+footer {
+    color:white;
+    background-color: #6F8879;
+    text-align: center;
+    padding: 10px;
+}

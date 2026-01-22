@@ -4,10 +4,6 @@ body {
     flex-direction: column;
 }
 
-img{
-    height: 80px;
-}
-
 main {
     position: relative;
     flex: 1;
@@ -24,11 +20,12 @@ main {
     position: absolute;
     inset: 0;
 
-    background-image: url('images/hawker-centre.jpg');
-    background-size: cover;
+    /* relative pathway: images\hawker-centre.jpg */
+    background-image: url("../images/hawker-centre.jpg"); 
+    background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
-
+    
     filter: blur(8px);
 }
 
